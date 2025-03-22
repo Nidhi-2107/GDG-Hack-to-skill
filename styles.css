@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #e6e6fa, #d8bfd8);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;}
+
+header {
+    background: rgba(180, 147, 214, 0.9);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;}
+
+nav ul li a:hover {
+    color: #f3e5f5;
+    text-decoration: underline;}
+
+.container {
+    background: white;
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.8s ease-in-out;
+    color: #333;}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #9370db;}
+
+h3 {
+    font-size: 22px;
+    color: #6a5acd;}
+
+input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;}
+
+button {
+    background: #9370db;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;}
+
+button:hover {
+    background: #7b5abf;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(123, 90, 191, 0.4);}
+
+#ai-analysis {
+    background: #f3e5f5;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;}
+
+th {
+    background: #9370db;
+    color: white;
+    font-weight: bold;}
+
+tr:nth-child(even) {
+    background: #f9f9f9;}
+
+footer {
+    background: rgba(180, 147, 214, 0.9);
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);}
+    to {
+        opacity: 1;
+        transform: translateY(0)}}

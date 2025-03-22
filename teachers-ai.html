@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers AI - Shiksha Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shiksha Bot</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="teachers-ai.html">Teachers AI</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>AI-Powered Teacher Assistant</h2>
+        <p>Upload student data or assignments for AI-driven insights.</p>
+        
+        <input type="file" id="teacherUpload">
+        <button onclick="analyzeTeacherData()">Analyze Data</button>
+
+        <div id="ai-analysis">
+            <h3>AI Analysis Result:</h3>
+            <p id="analysis-result">Upload data to get AI insights.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Shiksha Bot. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
